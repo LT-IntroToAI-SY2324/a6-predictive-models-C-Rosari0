@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("part1-linear-regression/chirping_data.csv")
 x = data["Temp"]
 y = data["Chirps"]
-
+print(data)
 # sets the size of the graph
 plt.figure(figsize=(6,4))
 
@@ -17,7 +17,7 @@ plt.ylabel("Chirps per Minute")
 plt.title("Cricket Chirps by Temperature")
 
 # prints the correlation coefficient
-print(f"Correlation between Temperature and Chirps/Min: {x.corr(y)}")
+print(f"Correlation between blood pressure and age /Min: {x.corr(y)}")
 
 # show the plot
 plt.show()
