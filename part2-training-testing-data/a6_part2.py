@@ -62,3 +62,5 @@ for index in range(len(xtest)):
     predicted_y = predict[index] # gets the predicted y value from the predict variable
     x_coord = xtest[index] # gets the x value from the xtest dataset
     print("x value:", float(x_coord), "Predicted y value:", predicted_y, "Actual y value:", actual)
+
+    ## needed a change to commit
